@@ -11,10 +11,10 @@ import tweepy    #this will give an error if tweepy is not installed properly
 from tweepy import OAuthHandler
  
 #provide your access details below 
-access_token = "xxxxxxxx"
-access_token_secret = "xxxxxxxx"
-consumer_key = "xxxxxxxx"
-consumer_secret = "xxxxxxxx"
+access_token = "1315549140-66Z4lw8nAh6LHrtavvC6Y0oZpCLsukZfLAFowvb"
+access_token_secret = "TfQ5UTCiDK3SeQzhpw6BgW66I7LjyiGb2Tg7zjXGqtF0e"
+consumer_key = "6LMRwD1NzhIfufby1q6HRmnxs"
+consumer_secret = "SlDsL7Ue656b8m84FmNkN8poIKlhGFyFHW3Xr4xxD4a7gDpf5v"
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
